@@ -1,0 +1,30 @@
+{
+		"name": "worldcup-tweet-collector",
+		"version": "0.0.1",
+		"description": "World cup tweet collector",
+		"author": "Aqib Mushtaq <aqib@mushtaq.me>",
+		"contributors": [{
+			"name": "Aqib Mushtaq",
+			"email": "aqib@mushtaq.me"
+		}],
+		"script": {
+			"start": "node app.js",
+			"predeploy": "echo im about to deploy",
+			"postdeploy": "echo ive deployed"
+		},
+		"repository": {
+			"type": "git",
+			"url": "https://github.com/aqibmushtaq/worldcup-tweet-collector"
+		},
+		"bugs": {
+			"url": "https://github.com/aqibmushtaq/worldcup-tweet-collector/issues"
+		},
+		"keywords": [
+			"aqibmushtaq",
+			"worldcup"
+		],
+		"dependencies": {
+			"node-tweet-stream": "1.2.x"
+		},
+		"license": "MIT"
+}
